@@ -38,6 +38,19 @@ Data types: Verified that all columns had appropriate data types (e.g., numbers 
 
 Several key metrics were calculated using Excel formulas:
 
-calculate metrics such as average sales per product
+- calculate metrics such as average sales per product
+
+Used AVERAGEIF() to calculate the average sales for each product
+
+```
+=AVERAGEIF(C:C,"shirt",H:H)
+
+```
+
+![Average total sales](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/averagesales.JPG)
+
+- calculate metrics such as Total sales per each region
+
+Used Pivot Tables to group sales by month.
 
 
