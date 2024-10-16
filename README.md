@@ -57,8 +57,8 @@ i) total sales by month.
 ![Monthly sales](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/monthlysales.JPG)
 
 ii) total sales by product
-
+![salesProduct](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/salesregion.JPG)
 iii) total sales by region
-
+![Monthly sales](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/salesregion.JPG)
 Pivot table fot 
 
