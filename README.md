@@ -89,7 +89,7 @@ v) The bottom 3 selling products
   
  iV) A line graph that shows the summary of sales monthly
  
-  ![Line graph](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/slicer.JPG)
+  ![Line graph](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/line%20graph.JPG)
   
  v) A pie chart that shows the top 3 best selling products
  
