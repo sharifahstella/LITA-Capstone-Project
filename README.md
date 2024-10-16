@@ -51,6 +51,14 @@ Used AVERAGEIF() to calculate the average sales for each product
 
 - calculate metrics such as Total sales per each region
 
-Used Pivot Tables to group sales by month.
+ Used pivot tables to summarize
+i) total sales by month.
 
+![Monthly sales](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/monthlysales.JPG)
+
+ii) total sales by product
+
+iii) total sales by region
+
+Pivot table fot 
 
