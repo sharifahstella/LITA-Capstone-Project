@@ -23,4 +23,21 @@ The sales data includes the following columns:
 - Unit price: The number for each sale sold.
 
 #### Data Example:
-![sales data set]()
+
+![sales data set](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/sales.JPG)
+
+### 1.2 Data Cleaning
+
+In Excel, i took the following steps to clean the data:
+
+Handling missing values: Using filtering and ISBLANK() to identify and handle missing entries of which i did not find any missing value
+Date format correction: Ensured all dates were formatted as Date.
+Data types: Verified that all columns had appropriate data types (e.g., numbers for sales and quantities).
+
+### 1.3 Metrics Calculated in Excel
+
+Several key metrics were calculated using Excel formulas:
+
+calculate metrics such as average sales per product
+
+
