@@ -85,7 +85,7 @@ v) The bottom 3 selling products
 
  iii) A pie chart that shows the total sales contribution by each region 
  
-  ![piechart](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/slicer.JPG)
+  ![piechart](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/pichart.JPG)
   
  iV) A line graph that shows the summary of sales monthly
  
