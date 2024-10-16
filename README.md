@@ -73,7 +73,15 @@ v) The bottom 3 selling products
 
 ![Top 3](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/bottom3.JPG)
 
-- Also rpresentd all my pivote tables with a bar graph,piechart and line graps to show the summary of monthly sales as shown below 
+- Also represented all my pivote tables with a bar graph,piechart and line graps to show the summary of monthly sales as shown below:
+  
+ i) Bar graph showing the Total sales by Region where by South had the highest sales
+
+ ![bargraph](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/bargraphregio.JPG)
+
+ ii) Bar graph to summarize also the Total sales sold by each product varying in both years using a slicer with the shirt have that best sells 
+ 
+  ![bargraph](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/bargraphregio.JPG)
 
 
 
