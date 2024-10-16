@@ -71,6 +71,10 @@ iv)The Top 3 best selling products
 
 v) The bottom 3 selling products 
 
-![Top 3]()
+![Top 3](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/bottom3.JPG)
+
+- Also rpresentd all my pivote tables with a bar graph,piechart and line graps to show the summary of monthly sales as shown below 
+
+
 
 
