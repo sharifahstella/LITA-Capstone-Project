@@ -54,9 +54,10 @@ Used AVERAGEIF() to calculate the average sales for each product
   ```
 =SUMIF(D:D,"North",H:H)
   ```
+![Product](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/Producttt.JPG)
 
- Used pivot tables to summarize
- 
+ - Used pivot tables to summarize
+ ---
 i) total sales by month.
 
 ![Monthly sales](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/monthlysales.JPG)
