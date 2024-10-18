@@ -46,18 +46,19 @@ Used AVERAGEIF() to calculate the average sales for each product
 =AVERAGEIF(C:C,"shirt",H:H)
 
 ```
-
 ![Average total sales](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/averagesales.JPG)
 
 - calculate metrics such as Total sales per each region
+  
+  ```
+  =SUMIF(D:D,"North",H:H)
 
   ```
-=SUMIF(D:D,"North",H:H)
-  ```
-![Product](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/Producttt.JPG)
+
+![Productt](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/Producttt.JPG)
 
  - Used pivot tables to summarize
- ---
+
 i) total sales by month.
 
 ![Monthly sales](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/monthlysales.JPG)
@@ -70,7 +71,7 @@ iii) total sales by region
 
 ![Monthly sales](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/salesregion.JPG)
 
-iv)The Top 3 best selling products
+iv) The Top 3 best selling products
 
 ![Top 3](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/top3.JPG)
 
@@ -99,6 +100,7 @@ v) The bottom 3 selling products
  v) A pie chart that shows the top 3 best selling products
  
   ![bargraph](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/slicer.JPG)
+
 
 ### 2.2 SQL Queries for Analysis 
 
