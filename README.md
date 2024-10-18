@@ -85,9 +85,9 @@ v) The bottom 3 selling products
 
  ![bargraph](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/bargraphregio.JPG)
 
- ii) Bar graph to summarize also the Total sales sold by each product varying in both years using a slicer with the shirt have that best sells 
+ ii) A pie chart to summarize also the Total sales sold by each product with the shoes have that best sells 
  
-  ![bargraph](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/slicer.JPG)
+  ![bargraph](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/prod.JPG)
 
  iii) A pie chart that shows the total sales contribution by each region 
  
