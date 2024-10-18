@@ -51,6 +51,10 @@ Used AVERAGEIF() to calculate the average sales for each product
 
 - calculate metrics such as Total sales per each region
 
+  ```
+=SUMIF(D:D,"North",H:H)
+  ```
+
  Used pivot tables to summarize
  
 i) total sales by month.
