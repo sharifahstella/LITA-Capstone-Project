@@ -85,19 +85,15 @@ v) The bottom 3 selling products
 
  ![bargraph](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/bargraphregio.JPG)
 
- ii) A pie chart to summarize also the Total sales sold by each product with the shoes have that best sells 
+ ii) A pie chart to summarize also the Total sales sold by each product with the shoes having the best sales
  
   ![bargraph](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/prod.JPG)
 
- iii) A pie chart that shows the total sales contribution by each region 
- 
-  ![piechart](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/pichart.JPG)
-  
- iV) A line graph that shows the summary of sales monthly
+ iii)  A line graph that shows the summary of sales monthly
  
   ![Line graph](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/line%20graph.JPG)
   
- v) A pie chart that shows the top 3 best selling products
+ iii) A pie chart that shows the top 3 best selling products
  
   ![bargraph](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/best%20sales.JPG)
 
