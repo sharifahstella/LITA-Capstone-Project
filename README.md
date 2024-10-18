@@ -94,9 +94,81 @@ v) The bottom 3 selling products
  v) A pie chart that shows the top 3 best selling products
  
   ![bargraph](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/slicer.JPG)
- vi)
- 
 
+### 2.2 SQL Queries for Analysis 
 
+- Retrieve the total sales for each product category
 
+```
+SELECT Product, SUM(TotalSales) AS TotalSales
+FROM LITACapstoneDatasett
+GROUP BY Product;
+
+```
+This query sums up the TotalSalesAmount for each product and groups the result by product name to get the total sales per product.Where by Shoes had the highest sales and socks with the least sales 
+
+- Find the number of sales transactions in each region
+
+```
+SELECT Region, COUNT(OrderID) AS NumberOfSalesTransactions
+FROM LITACapstoneDatasett
+GROUP BY Region;
+
+```
+ This query counts the number of orders (transactions) based on OrderID and groups by Region of which each region has the same number of orders
+
+- Find the highest-selling product by total sales value
+
+```
+SELECT  Product, SUM(TotalSales) AS TotalSales
+FROM LITACapstoneDatasett
+GROUP BY Product
+ORDER BY TotalSales DESC
+LIMIT 1;
+
+```
+This query sums up the TotalSales for each product, orders the result in descending order, and returns the top-selling product.Whereby i found out that the best selling product was shoes 
+
+- Calculate total revenue per product
+
+```
+SELECT Product, SUM(TotalSales) AS TotalRevenue
+FROM LITACapstoneDatasett
+GROUP BY Product;
+
+```
+- Find the top 5 customers by total purchase amount
+
+```
+SELECT Customer_id, SUM(totalsales) AS TotalPurchaseAmount
+FROM LITACapstoneDatasett
+GROUP BY Customer_id
+ORDER BY TotalPurchaseAmount DESC
+Limit 5;
+
+```
+
+- Calculate the percentage of total sales contributed by each region
+
+```
+SELECT 
+    Region,
+    SUM(totalsales) AS region_total_sales,
+    (SUM(totalsales) * 100 / (SELECT SUM(totalsales) FROM LITACapstoneDatasett)) AS percentage_of_total_sales
+FROM 
+    LITACapstoneDatasett
+GROUP BY 
+    Region
+ORDER BY 
+    percentage_of_total_sales DESC;
+
+```
+#### Summary
+The queries provide extract various insights from sales data, including total sales, highest-selling products, top customers, and sales by region. These queries help identify:
+
+- Products driving the highest revenue which is shoes 
+- Regions contributing the most to sales which is south
+- Top customers in terms of purchase amount.
+- Sales trends by month and year.
+This information can be used to make data-driven decisions on inventory, marketing, and customer retention strategies
 
