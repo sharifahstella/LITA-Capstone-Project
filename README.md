@@ -75,7 +75,7 @@ ii) total sales by product
 
 iii) total sales by region
 
-![Monthly sales](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/salesregion.JPG)
+![Monthly sales](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/region2.JPG)
 
 iv) The Top 3 best selling products
 
