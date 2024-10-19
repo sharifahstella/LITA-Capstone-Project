@@ -1,4 +1,4 @@
-# LITA-Capstone-Project 1
+# Sales Performance Analysis for a Retail Store
 ## Project Overview
 This project aims to analyze the sales performance of a retail store. The analysis focuses on key metrics such as total sales, sales growth, best-selling products, and sales performance by region and month. The tools used include Excel for data exploration, SQL for data extraction and manipulation, and Power BI for data visualization and reporting.
 
