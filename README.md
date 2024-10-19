@@ -96,8 +96,10 @@ v) The bottom 3 selling products
   ![bargraph](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/prod.JPG)
 
  iii)  A line graph that shows the summary of sales monthly
+
+ Used a slicer to give the monthly sales per year in the report 
  
-  ![Line graph](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/lineeee.JPG)
+  ![Line graph](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/high.JPG)
   
  
 ### 2.2 SQL Queries for Analysis 
