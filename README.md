@@ -99,11 +99,7 @@ v) The bottom 3 selling products
  
   ![Line graph](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/lineeee.JPG)
   
- iii) A pie chart that shows the top 3 best selling products
  
-  ![bargraph](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/best%20sales.JPG)
-
-
 ### 2.2 SQL Queries for Analysis 
 
 - Retrieve the total sales for each product category
