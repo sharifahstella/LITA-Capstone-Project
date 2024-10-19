@@ -83,7 +83,11 @@ iv) The Top 3 best selling products
 
 v) The Top 5 Customers by Total sales
 
-![Top 3](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/bottom3.JPG)
+![Top 3](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/cust.JPG)
+
+vi) Total Units Sold Per Product
+
+![Top 3]()
 
 - Also represented all my pivote tables with a bar graph,piechart and line graps to show the summary of monthly sales as shown below:
   
