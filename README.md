@@ -57,6 +57,12 @@ Used AVERAGEIF() to calculate the average sales for each product
 
 ![Productt](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/Producttt.JPG)
 
+- Categorising of units sold by category of high,Low and medium
+
+i used a conditional function of Nested Ifs to find the category column
+
+
+
  - Used pivot tables to summarize
 
 i) total sales by month.
