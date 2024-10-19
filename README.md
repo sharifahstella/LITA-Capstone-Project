@@ -79,9 +79,9 @@ iii) total sales by region
 
 iv) The Top 3 best selling products
 
-![Top 3](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/top3.JPG)
+![Top 3](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/best.JPG)
 
-v) The bottom 3 selling products 
+v) The Top 5 Customers by Total sales
 
 ![Top 3](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/bottom3.JPG)
 
