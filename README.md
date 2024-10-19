@@ -67,7 +67,7 @@ i used a conditional function of Nested Ifs to find the category column
 
 i) total sales by month.
 
-![Monthly sales](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/monthlysales.JPG)
+![Monthly sales](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/monthly.JPG)
 
 ii) total sales by product
 
