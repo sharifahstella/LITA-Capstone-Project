@@ -104,7 +104,14 @@ vi) Total Units Sold Per Product
  Used a slicer to give the monthly sales per year in the report 
  
   ![Line graph](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/high.JPG)
-  
+
+#### Summary of Key Findings
+
+- Top-Selling Products: Used the Pivot Table and charts to identify Shoes,Shirt and Hat being the best 3 selling products with the most revenue generted.
+- Regional Performance: Visualized South and East are contributing most to total sales and assess The other regions of West and North require more focus.
+- Monthly Sales Trends: Identify feb and jul having the high sales based on the monthly totals in the year of 2023 while in the year 2024 we had jan and feb having the high total sales trending seasonally.
+- Customer Insights: Tracked top 5 customers such as Cus1488,Cus1375,Cus1023	28,Cus1059,Cus1367 by Total sales  to support targeted marketing efforts.
+- Low-Performing Products: Identified products with low sales such as Jacket and Socks in the past quarter using a combination of Pivot Tables and filters.
  
 ### 2.2 SQL Queries for Analysis 
 
