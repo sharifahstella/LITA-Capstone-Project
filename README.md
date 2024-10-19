@@ -61,7 +61,7 @@ Used AVERAGEIF() to calculate the average sales for each product
 
 i used a conditional function of Nested Ifs to find the category column
 
-
+![Low](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/Low.JPG)
 
  - Used pivot tables to summarize
 
