@@ -71,7 +71,7 @@ i) total sales by month.
 
 ii) total sales by product
 
-![salesProduct](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/Region.JPG)
+![salesProduct](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/units.JPG)
 
 iii) total sales by region
 
@@ -81,11 +81,7 @@ iv) The Top 3 best selling products
 
 ![Top 3](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/top.JPG)
 
-v) The Top 5 Customers by Total sales
-
-![Top 3](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/cust.JPG)
-
-vi) Total Units Sold Per Product
+v) Total Units Sold Per Product
 
 ![Top 3](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/units.JPG)
 
