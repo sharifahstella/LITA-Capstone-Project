@@ -48,14 +48,14 @@ Used AVERAGEIF() to calculate the average sales for each product
 ```
 ![Average total sales](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/Average.JPG)
 
-- calculate metrics such as Total sales per each region
+- calculate metrics such as Total Revenue per each region
   
   ```
   =SUMIF(D:D,"North",H:H)
 
   ```
 
-![Productt](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/Producttt.JPG)
+![Productt](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/sumif.JPG)
 
 - Categorising of units sold by category of high,Low and medium
 
