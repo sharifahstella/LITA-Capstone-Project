@@ -71,7 +71,7 @@ i) total sales by month.
 
 ii) total sales by product
 
-![salesProduct]()
+![salesProduct](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/salesproduct.JPG)
 
 iii) total sales by region
 
