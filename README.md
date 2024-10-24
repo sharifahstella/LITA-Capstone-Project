@@ -71,7 +71,7 @@ i) total sales by month.
 
 ii) total sales by product
 
-![salesProduct](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/units.JPG)
+![salesProduct]()
 
 iii) total sales by region
 
@@ -83,7 +83,7 @@ iv) The Top 3 best selling products
 
 v) Total Units Sold Per Product
 
-![Top 3](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/units.JPG)
+![Top 3](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/units.JPG)
 
 - Also represented all my pivote tables with a bar graph,piechart and line graps to show the summary of monthly sales as shown below:
   
