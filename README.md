@@ -79,7 +79,7 @@ iii) total sales by region
 
 iv) The Top 3 best selling products
 
-![Top 3](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/top.JPG)
+![Top 3](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/Tope.JPG)
 
 v) Total Units Sold Per Product
 
