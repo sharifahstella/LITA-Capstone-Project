@@ -46,7 +46,7 @@ Used AVERAGEIF() to calculate the average sales for each product
 =AVERAGEIF(C:C,"shirt",H:H)
 
 ```
-![Average total sales](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/averagesales.JPG)
+![Average total sales](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/Average.JPG)
 
 - calculate metrics such as Total sales per each region
   
