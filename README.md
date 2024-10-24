@@ -99,7 +99,7 @@ v) Total Units Sold Per Product
 
  Used a slicer to give the monthly sales per year in the report 
  
-  ![Line graph](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/high.JPG)
+  ![Line graph](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/line2.JPG)
 
 #### Summary of Key Findings
 
