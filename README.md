@@ -89,7 +89,7 @@ v) Total Units Sold Per Product
   
  i) Bar graph showing the Total sales by each Product where by Shoes had the highest sales
 
- ![bargraph](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/bargraphregio.JPG)
+ ![bargraph](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/bar.JPG)
 
  ii) A pie chart to summarize also the Total sales sold by each region with the south having the best sales
  
