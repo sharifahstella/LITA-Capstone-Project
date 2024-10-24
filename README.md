@@ -87,13 +87,13 @@ v) Total Units Sold Per Product
 
 - Also represented all my pivote tables with a bar graph,piechart and line graps to show the summary of monthly sales as shown below:
   
- i) Bar graph showing the Total sales by Region where by South had the highest sales
+ i) Bar graph showing the Total sales by each Product where by Shoes had the highest sales
 
  ![bargraph](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/bargraphregio.JPG)
 
- ii) A pie chart to summarize also the Total sales sold by each product with the shoes having the best sales
+ ii) A pie chart to summarize also the Total sales sold by each region with the south having the best sales
  
-  ![bargraph](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/prod.JPG)
+  ![bargraph](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/pie.JPG)
 
  iii)  A line graph that shows the summary of sales monthly
 
