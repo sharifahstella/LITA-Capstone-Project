@@ -115,7 +115,7 @@ v) Total Units Sold Per Product
 
 ```
 SELECT Product, SUM(TotalSales) AS TotalSales
-FROM LITACapstoneDatasett
+FROM LITACapstoneDataset
 GROUP BY Product;
 
 ```
@@ -125,7 +125,7 @@ This query sums up the TotalSalesAmount for each product and groups the result b
 
 ```
 SELECT Region, COUNT(OrderID) AS NumberOfSalesTransactions
-FROM LITACapstoneDatasett
+FROM LITACapstoneDataset
 GROUP BY Region;
 
 ```
@@ -135,7 +135,7 @@ GROUP BY Region;
 
 ```
 SELECT  Product, SUM(TotalSales) AS TotalSales
-FROM LITACapstoneDatasett
+FROM LITACapstoneDataset
 GROUP BY Product
 ORDER BY TotalSales DESC
 LIMIT 1;
@@ -147,7 +147,7 @@ This query sums up the TotalSales for each product, orders the result in descend
 
 ```
 SELECT Product, SUM(TotalSales) AS TotalRevenue
-FROM LITACapstoneDatasett
+FROM LITACapstoneDataset
 GROUP BY Product;
 
 ```
@@ -155,7 +155,7 @@ GROUP BY Product;
 
 ```
 SELECT Customer_id, SUM(totalsales) AS TotalPurchaseAmount
-FROM LITACapstoneDatasett
+FROM LITACapstoneDataset
 GROUP BY Customer_id
 ORDER BY TotalPurchaseAmount DESC
 Limit 5;
@@ -168,9 +168,9 @@ Limit 5;
 SELECT 
     Region,
     SUM(totalsales) AS region_total_sales,
-    (SUM(totalsales) * 100 / (SELECT SUM(totalsales) FROM LITACapstoneDatasett)) AS percentage_of_total_sales
+    (SUM(totalsales) * 100 / (SELECT SUM(totalsales) FROM LITACapstoneDataset)) AS percentage_of_total_sales
 FROM 
-    LITACapstoneDatasett
+    LITACapstoneDataset
 GROUP BY 
     Region
 ORDER BY 
