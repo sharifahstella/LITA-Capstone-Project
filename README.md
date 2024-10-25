@@ -115,7 +115,7 @@ v) Total Units Sold Per Product
 
 ```
 SELECT Product, SUM(TotalSales) AS TotalSales
-FROM LITACapstoneDataset
+FROM [dbo].[LITA Capstone Dataset]
 GROUP BY Product;
 
 ```
@@ -125,7 +125,7 @@ This query sums up the TotalSalesAmount for each product and groups the result b
 
 ```
 SELECT Region, COUNT(OrderID) AS NumberOfSalesTransactions
-FROM LITACapstoneDataset
+FROM [dbo].[LITA Capstone Dataset]
 GROUP BY Region;
 
 ```
@@ -135,7 +135,7 @@ GROUP BY Region;
 
 ```
 SELECT  Product, SUM(TotalSales) AS TotalSales
-FROM LITACapstoneDataset
+FROM [dbo].[LITA Capstone Dataset]
 GROUP BY Product
 ORDER BY TotalSales DESC
 LIMIT 1;
@@ -147,15 +147,32 @@ This query sums up the TotalSales for each product, orders the result in descend
 
 ```
 SELECT Product, SUM(TotalSales) AS TotalRevenue
-FROM LITACapstoneDataset
+FROM [dbo].[LITA Capstone Dataset]
 GROUP BY Product;
 
 ```
+- calculate monthly sales totals for the current year.
+```
+SELECT 
+    YEAR(OrderDate) AS Year,               -- Extract the year
+    MONTH(OrderDate) AS Month,             -- Extract the month
+    SUM(Total_Sales) AS MonthlySales  -- Sum total sales for the month
+FROM 
+   [dbo].[LITA Capstone Dataset]
+WHERE 
+    YEAR(OrderDate) = YEAR(GETDATE())      -- Filter for the current year
+GROUP BY 
+    YEAR(OrderDate), MONTH(OrderDate)      -- Group by year and month
+ORDER BY 
+    Year, Month;                           -- Order by year and month
+
+```
+
 - Find the top 5 customers by total purchase amount
 
 ```
 SELECT Customer_id, SUM(totalsales) AS TotalPurchaseAmount
-FROM LITACapstoneDataset
+FROM [dbo].[LITA Capstone Dataset]
 GROUP BY Customer_id
 ORDER BY TotalPurchaseAmount DESC
 Limit 5;
@@ -168,14 +185,24 @@ Limit 5;
 SELECT 
     Region,
     SUM(totalsales) AS region_total_sales,
-    (SUM(totalsales) * 100 / (SELECT SUM(totalsales) FROM LITACapstoneDataset)) AS percentage_of_total_sales
+    (SUM(totalsales) * 100 / (SELECT SUM(totalsales) FROM [dbo].[LITA Capstone Dataset])) AS percentage_of_total_sales
 FROM 
-    LITACapstoneDataset
+    [dbo].[LITA Capstone Dataset]
 GROUP BY 
     Region
 ORDER BY 
     percentage_of_total_sales DESC;
 
+```
+- Identify products with no sales in the last quarter
+  
+```
+SELECT p.Product
+FROM (SELECT DISTINCT Product FROM [dbo].[LITA Capstone Dataset]) p
+LEFT JOIN [dbo].[LITA Capstone Dataset] s
+    ON p.Product = s.Product
+    AND s.OrderDate >= DATEADD(QUARTER, -1, GETDATE())
+WHERE s.OrderID IS NULL;
 ```
 #### Summary
 The queries provide extract various insights from sales data, including total sales, highest-selling products, top customers, and sales by region. These queries help identify:
