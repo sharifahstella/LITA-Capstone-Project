@@ -7,7 +7,7 @@ This project aims to analyze the sales performance of a retail store. The analys
 - Identify trends and patterns in sales data.
 - Visualize key metrics for data-driven decision-making.
 
-## Data Preparation in Excel
+## 1. Data Preparation in Excel
 
 ### 1.1 Data Overview
 
@@ -109,7 +109,7 @@ v) Total Units Sold Per Product
 - Customer Insights: Tracked top 5 customers such as Cus1488,Cus1375,Cus1023	28,Cus1059,Cus1367 by Total sales  to support targeted marketing efforts.
 - Low-Performing Products: Identified products with low sales such as Jacket and Socks in the past quarter using a combination of Pivot Tables and filters.
  
-### 2.2 SQL Queries for Analysis 
+### 2. SQL Queries for Analysis 
 
 - Retrieve the total sales for each product category
 
@@ -212,6 +212,14 @@ WHERE s.OrderID IS NULL;
 ```
 Products Jacket, Shirt,socks and Gloves had no sales transactions within the last quarter, assisting in inventory and sales strategy adjustments to avoid overstocking low-demand items.
 
+#### Key Insights
+
+Challenge: Socks and Jacket have seen declining sales, particularly in specific regions, indicating potential issues with market alignment or demand. Furthermore, the data reveals Jacket, Shirt,socks and Gloves have not sold in the last quarter, suggesting possible inventory inefficiencies.
+
+Opportunity: Using customer purchase patterns and identifying top-selling products such as Shoes,Shirt and Hat enables targeted marketing and personalized sales approaches. High-demand regions such as south and East can also benefit from increased inventory and targeted promotions to maximize revenue.
+
+Outcome: The SQL-driven analysis provides a comprehensive sales view, informing business strategies and inventory planning to align with market demands. By visualizing insights from Excel and Power BI, the retail store can make informed decisions, ultimately optimizing performance and meeting customer needs effectively.
+
 #### Summary
 The queries provide extract various insights from sales data, including total sales, highest-selling products, top customers, and sales by region. These queries help identify:
 
@@ -220,4 +228,8 @@ The queries provide extract various insights from sales data, including total sa
 - Top customers in terms of purchase amount.
 - Sales trends by month and year.
 This information can be used to make data-driven decisions on inventory, marketing, and customer retention strategies
+
+## 3. Power BI
+
+
 
