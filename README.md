@@ -231,5 +231,19 @@ This information can be used to make data-driven decisions on inventory, marketi
 
 ## 3. Power BI
 
+This project analyzes sales performance for a retail store, focusing on uncovering trends in product performance, regional sales, and monthly revenue. The insights derived will be showcased on an interactive Power BI dashboard to help the business make informed, data-driven decisions.
+
+#### Power BI Dashboard Components and Storytelling Insights
+
+ ![bargraph](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/bar.JPG)
+ 
+Storytelling Outcomes
+The Power BI dashboard provides a narrative-driven overview of sales performance. Insights drawn include:
+
+- Best-Selling Products: Products with the highest revenue contributions can be prioritized in stocking and promotion.
+- Regional Performance: Key revenue-generating regions can be targeted for expansion, while low-performing regions may require strategic interventions.
+- Seasonal Trends: Monthly sales trends guide inventory management, helping the store prepare for high-demand periods.
+- Customer Loyalty: Recognizing top customers enables the business to foster loyalty and increase customer lifetime value.
+By visualizing these metrics, the dashboard enables actionable insights that improve sales strategy, marketing efforts, and operational efficiency.
 
 
