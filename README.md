@@ -151,6 +151,8 @@ FROM [dbo].[LITA Capstone Dataset]
 GROUP BY Product;
 
 ```
+ Calculates the total revenue for each product. It highlights top revenue-generating products, aiding in revenue optimization efforts.
+ 
 - calculate monthly sales totals for the current year.
 ```
 SELECT 
@@ -167,6 +169,7 @@ ORDER BY
     Year, Month;                           -- Order by year and month
 
 ```
+Summarizes total monthly sales for the current year. This data can reveal seasonal trends and high-demand periods.
 
 - Find the top 5 customers by total purchase amount
 
@@ -178,6 +181,7 @@ ORDER BY TotalPurchaseAmount DESC
 Limit 5;
 
 ```
+Identifies the top 5 customers by their purchase amounts. This helps in recognizing high-value customers and prioritizing loyalty initiatives.
 
 - Calculate the percentage of total sales contributed by each region
 
@@ -194,6 +198,8 @@ ORDER BY
     percentage_of_total_sales DESC;
 
 ```
+This is valuable for identifying dominant markets and potential expansion areas.
+
 - Identify products with no sales in the last quarter
   
 ```
@@ -204,7 +210,7 @@ LEFT JOIN [dbo].[LITA Capstone Dataset] s
     AND s.OrderDate >= DATEADD(QUARTER, -1, GETDATE())
 WHERE s.OrderID IS NULL;
 ```
-Products Jacket, Shirt,socks and Gloves had no sales transactions within the last quarter, so they appear in this list.
+Products Jacket, Shirt,socks and Gloves had no sales transactions within the last quarter, assisting in inventory and sales strategy adjustments to avoid overstocking low-demand items.
 
 #### Summary
 The queries provide extract various insights from sales data, including total sales, highest-selling products, top customers, and sales by region. These queries help identify:
