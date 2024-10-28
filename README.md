@@ -204,6 +204,8 @@ LEFT JOIN [dbo].[LITA Capstone Dataset] s
     AND s.OrderDate >= DATEADD(QUARTER, -1, GETDATE())
 WHERE s.OrderID IS NULL;
 ```
+Products Jacket, Shirt,socks and Gloves had no sales transactions within the last quarter, so they appear in this list.
+
 #### Summary
 The queries provide extract various insights from sales data, including total sales, highest-selling products, top customers, and sales by region. These queries help identify:
 
