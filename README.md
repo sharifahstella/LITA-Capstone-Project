@@ -237,7 +237,7 @@ This project analyzes sales performance for a retail store, focusing on uncoveri
 
 Created visuals such as line charts, bar charts, and tables, enabling detailed analysis with slicers to filter by Year.
 
- ![bargraph](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/bi.PNG)
+ ![bargraph](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/bp.PNG)
  
 #### 3.2 Storytelling Outcomes
 
