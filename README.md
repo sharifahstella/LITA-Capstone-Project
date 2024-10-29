@@ -215,7 +215,7 @@ ORDER BY
 
 ```
 
- ![Line graph]()
+ ![Line graph](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/result6.PNG)
  
 This is valuable for identifying dominant markets and potential expansion areas.
 
