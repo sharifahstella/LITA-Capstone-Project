@@ -195,7 +195,7 @@ Limit 5;
 
 ```
 
- ![Line graph]()
+ ![Line graph](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/result5.PNG)
  
 Identifies the top 5 customers by their purchase amounts. This helps in recognizing high-value customers and prioritizing loyalty initiatives.
 
