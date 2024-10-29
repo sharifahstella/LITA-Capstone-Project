@@ -230,7 +230,7 @@ LEFT JOIN [dbo].[LITA Capstone Dataset] s
 WHERE s.OrderID IS NULL;
 ```
 
- ![Line graph]()
+ ![Line graph](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/result7.PNG)
  
 Products Jacket, Shirt,socks and Gloves had no sales transactions within the last quarter, assisting in inventory and sales strategy adjustments to avoid overstocking low-demand items.
 
