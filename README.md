@@ -65,15 +65,15 @@ i used a conditional function of Nested Ifs to find the category column
 
  - Used pivot tables to summarize
 
-i) total sales by month.
+i) Total sales by month.
 
 ![Monthly sales](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/monthly.JPG)
 
-ii) total sales by product
+ii) Total sales by product
 
 ![salesProduct](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/salesproduct.JPG)
 
-iii) total sales by region
+iii) Total sales by region
 
 ![Monthly sales](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/regionsales.JPG)
 
