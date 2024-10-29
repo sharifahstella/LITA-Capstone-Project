@@ -147,7 +147,7 @@ LIMIT 1;
 
 ```
 
- ![Line graph]() 
+ ![Line graph](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/result3.PNG) 
  
 This query sums up the TotalSales for each product, orders the result in descending order, and returns the top-selling product.Whereby i found out that the best selling product was shoes 
 
