@@ -180,7 +180,7 @@ ORDER BY
 
 ```
 
- ![Line graph]()
+ ![Line graph](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/result4.PNG)
  
 Summarizes total monthly sales for the current year. This data can reveal seasonal trends and high-demand periods.
 
