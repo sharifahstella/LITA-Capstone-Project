@@ -132,7 +132,7 @@ GROUP BY Region;
 
 ```
 
- ![Line graph]()
+ ![Line graph](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/result2.PNG)
  
  This query counts the number of orders (transactions) based on OrderID and groups by Region of which each region has the same number of orders
 
