@@ -119,6 +119,8 @@ FROM [dbo].[LITA Capstone Dataset]
 GROUP BY Product;
 
 ```
+ ![Line graph]() 
+ 
 This query sums up the TotalSalesAmount for each product and groups the result by product name to get the total sales per product.Where by Shoes had the highest sales and socks with the least sales 
 
 - Find the number of sales transactions in each region
@@ -129,6 +131,9 @@ FROM [dbo].[LITA Capstone Dataset]
 GROUP BY Region;
 
 ```
+
+ ![Line graph]()
+ 
  This query counts the number of orders (transactions) based on OrderID and groups by Region of which each region has the same number of orders
 
 - Find the highest-selling product by total sales value
@@ -141,6 +146,9 @@ ORDER BY TotalSales DESC
 LIMIT 1;
 
 ```
+
+ ![Line graph]() 
+ 
 This query sums up the TotalSales for each product, orders the result in descending order, and returns the top-selling product.Whereby i found out that the best selling product was shoes 
 
 - Calculate total revenue per product
@@ -151,6 +159,8 @@ FROM [dbo].[LITA Capstone Dataset]
 GROUP BY Product;
 
 ```
+ ![Line graph]()
+ 
  Calculates the total revenue for each product. It highlights top revenue-generating products, aiding in revenue optimization efforts.
  
 - calculate monthly sales totals for the current year.
@@ -169,6 +179,9 @@ ORDER BY
     Year, Month;                           -- Order by year and month
 
 ```
+
+ ![Line graph]()
+ 
 Summarizes total monthly sales for the current year. This data can reveal seasonal trends and high-demand periods.
 
 - Find the top 5 customers by total purchase amount
@@ -181,6 +194,9 @@ ORDER BY TotalPurchaseAmount DESC
 Limit 5;
 
 ```
+
+ ![Line graph]()
+ 
 Identifies the top 5 customers by their purchase amounts. This helps in recognizing high-value customers and prioritizing loyalty initiatives.
 
 - Calculate the percentage of total sales contributed by each region
@@ -198,6 +214,9 @@ ORDER BY
     percentage_of_total_sales DESC;
 
 ```
+
+ ![Line graph]()
+ 
 This is valuable for identifying dominant markets and potential expansion areas.
 
 - Identify products with no sales in the last quarter
@@ -210,6 +229,9 @@ LEFT JOIN [dbo].[LITA Capstone Dataset] s
     AND s.OrderDate >= DATEADD(QUARTER, -1, GETDATE())
 WHERE s.OrderID IS NULL;
 ```
+
+ ![Line graph]()
+ 
 Products Jacket, Shirt,socks and Gloves had no sales transactions within the last quarter, assisting in inventory and sales strategy adjustments to avoid overstocking low-demand items.
 
 #### Key Insights
