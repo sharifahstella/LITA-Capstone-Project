@@ -119,7 +119,7 @@ FROM [dbo].[LITA Capstone Dataset]
 GROUP BY Product;
 
 ```
- ![Line graph]() 
+ ![Line graph](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/result1.PNG)
  
 This query sums up the TotalSalesAmount for each product and groups the result by product name to get the total sales per product.Where by Shoes had the highest sales and socks with the least sales 
 
