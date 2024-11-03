@@ -270,8 +270,8 @@ The Power BI dashboard provides a narrative-driven overview of sales performance
 - Seasonal Trends: Monthly sales trends in the current Year guide inventory management, helping the store prepare for high-demand periods.
 - Customer Loyalty: Recognizing top customers enables the business to foster loyalty and increase customer lifetime value.
 
-## Conclusion
-
 By visualizing these metrics, the dashboard enables actionable insights that improve sales strategy, marketing efforts, and operational efficiency.
 
+## Conclusion
 
+This project provides a comprehensive Sales Performance Analysis using Excel, SQL, and Power BI. Excel helped clean and explore the data, SQL was used for efficient data extraction and manipulation, and Power BI provided advanced visualizations for interactive reporting. The dashboard helps stakeholders quickly identify trends and make data-driven decisions to improve sales performance.
