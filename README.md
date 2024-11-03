@@ -109,7 +109,7 @@ v) Total Units Sold Per Product
 - Customer Insights: Tracked top 5 customers such as Cus1488,Cus1375,Cus1023	28,Cus1059,Cus1367 by Total sales  to support targeted marketing efforts.
 - Low-Performing Products: Identified products with low sales such as Jacket and Socks in the past quarter using a combination of Pivot Tables and filters.
  
-### 2. SQL Queries for Analysis 
+### 2. Data Extraction and Manipulation with SQL
 
 - Retrieve the total sales for each product category
 
@@ -251,7 +251,7 @@ The queries provide extract various insights from sales data, including total sa
 - Sales trends by month and year.
 This information can be used to make data-driven decisions on inventory, marketing, and customer retention strategies
 
-## 3. Power BI
+## 3.Visualization in Power BI
 
 This project analyzes sales performance for a retail store, focusing on uncovering trends in product performance, regional sales, and monthly revenue. The insights derived will be showcased on an interactive Power BI dashboard to help the business make informed, data-driven decisions.
 
