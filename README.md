@@ -26,7 +26,7 @@ The sales data includes the following columns:
 
 ![sales data set](https://github.com/sharifahstella/LITA-Capstone-Project/blob/main/sales.JPG)
 
-### 1.2 Data Cleaning
+### Data Cleaning
 
 In Excel, i took the following steps to clean the data:
 
@@ -34,7 +34,7 @@ Handling missing values: Using filtering and ISBLANK() to identify and handle mi
 Date format correction: Ensured all dates were formatted as Date.
 Data types: Verified that all columns had appropriate data types (e.g., numbers for sales and quantities).
 
-### 1.3 Metrics Calculated in Excel
+### Metrics Calculated in Excel
 
 Several key metrics were calculated using Excel formulas:
 
@@ -255,7 +255,7 @@ This information can be used to make data-driven decisions on inventory, marketi
 
 This project analyzes sales performance for a retail store, focusing on uncovering trends in product performance, regional sales, and monthly revenue. The insights derived will be showcased on an interactive Power BI dashboard to help the business make informed, data-driven decisions.
 
-#### 3.1 Power BI Dashboard Components and Storytelling Insights
+####  Power BI Dashboard Components and Storytelling Insights
 
 Created visuals such as line charts, bar charts, and tables, enabling detailed analysis with slicers to filter by Year.
 
@@ -270,7 +270,7 @@ Created visuals such as line charts, bar charts, and tables, enabling detailed a
 - A matrix showing the Top 5 customers by total sales.
 - A slicer filter by Year.
  
-#### 3.2 Storytelling Outcomes
+#### Storytelling Outcomes
 
 The Power BI dashboard provides a narrative-driven overview of sales performance. Insights drawn include:
 
