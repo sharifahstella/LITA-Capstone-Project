@@ -260,6 +260,15 @@ This project analyzes sales performance for a retail store, focusing on uncoveri
 Created visuals such as line charts, bar charts, and tables, enabling detailed analysis with slicers to filter by Year.
 
  ![bargraph](https://github.com/sharifahstella/LITA-Capstone-Project1/blob/main/Capture.PNG)
+
+
+ #### Dashboard Overview
+- KPI cards showing Average total number of sales which is 212,Average unit price of 29 and the Total quantity sales of sold 345000
+- stacked bar chart showing the total sales by region where by south has the highest total sales
+- Column bar chart showing the Top # best performing products that is Shoes,Shirt and Hat driving to more profits in the retail store.
+- A line chart showing the monthly total sales by the current year.
+- A matrix showing the Top 5 customers by total sales.
+- A slicer filter by Year.
  
 #### 3.2 Storytelling Outcomes
 
